@@ -2071,6 +2071,9 @@ s.slideTo = function (slideIndex, speed, runCallbacks, internal) {
 
     }
 
+    // Fix loop
+    s.fixLoop();
+
     return true;
 };
 
